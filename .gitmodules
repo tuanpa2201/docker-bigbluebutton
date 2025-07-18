@@ -15,7 +15,7 @@
 	url = https://github.com/signalwire/freeswitch.git
 [submodule "repos/bigbluebutton"]
 	path = repos/bigbluebutton
-	url = https://github.com/bigbluebutton/bigbluebutton.git
+	url = https://github.com/tuanpa2201/bigbluebutton.git
 [submodule "repos/bbb-webrtc-sfu"]
 	path = repos/bbb-webrtc-sfu
 	url = https://github.com/bigbluebutton/bbb-webrtc-sfu.git
