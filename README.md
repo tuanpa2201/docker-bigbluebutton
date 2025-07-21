@@ -3,7 +3,7 @@
 
 # 📦 BigBlueButton 3.0 Docker
 
-Version: 3.0.1 | [Changelog](CHANGELOG.md) | [Issues](https://github.com/bigbluebutton/docker/issues) | [Upgrading](docs/upgrading.md) | [Development](docs/development.md)
+Version: 3.0.1 | [Changelog](CHANGELOG.md) | [Issues](https://github.com/tuanpa2201/docker-bigbluebutton/issues) | [Upgrading](docs/upgrading.md) | [Development](docs/development.md)
 
 ## Features
 - Easy installation
@@ -37,7 +37,7 @@ Version: 3.0.1 | [Changelog](CHANGELOG.md) | [Issues](https://github.com/bigblue
     3. Ensure you use a docker version ≥ 23.0 : `$ docker --version`
 3. Clone this repository
    ```sh
-   $ git clone https://github.com/bigbluebutton/docker.git bbb-docker
+   $ git clone https://github.com/tuanpa2201/docker-bigbluebutton.git bbb-docker
    $ cd bbb-docker
 
    # use the more stable main branch (sometimes older)
@@ -65,7 +65,7 @@ Version: 3.0.1 | [Changelog](CHANGELOG.md) | [Issues](https://github.com/bigblue
 ## Development setup
 1. Clone this repository
    ```sh
-   $  git clone --recurse-submodules https://github.com/bigbluebutton/docker.git bbb-dev
+   $  git clone --recurse-submodules https://github.com/tuanpa2201/docker-bigbluebutton.git bbb-dev
    ```
 2. Start dev server
    ```sh
