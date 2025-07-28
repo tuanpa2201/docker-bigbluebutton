@@ -512,7 +512,7 @@ services:
       DATABASE_URL: postgres://postgres:${POSTGRESQL_SECRET:-password}@postgres:5432/greenlight-v3
       REDIS_URL: redis://redis:6379
       {{ if $ignore_tls_cert_errors }}
-      BIGBLUEBUTTON_ENDPOINT: http://10.7.7.1:48083/bigbluebutton/api
+      BIGBLUEBUTTON_ENDPOINT: http://192.168.1.111:48083/bigbluebutton/api
       {{else}}
       BIGBLUEBUTTON_ENDPOINT: https://${DOMAIN}/bigbluebutton/api
       {{end}}
@@ -541,6 +541,8 @@ services:
     volumes:
       - ./data/postgres:/var/lib/postgresql/data
       - ./mod/postgres/initdb.sh:/docker-entrypoint-initdb.d/initdb.sh
+    ports:
+      - "5432:5432"
     networks:
       bbb-net:
         ipv4_address: 10.7.7.22
